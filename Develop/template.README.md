@@ -1,5 +1,7 @@
 # {Title}
 
+![GitHub](https://img.shields.io/github/license/{Username}/{Repo})
+
 ## Description
 
 {Description}
@@ -8,11 +10,9 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
-- [Features](#features)
-- [How To Contribute](#contributing)
+- [Questions](#Questions)
+- [How To Contribute](#HowToContribute)
 - [Test](#tests)
 
 ## Installation
@@ -27,15 +27,9 @@
 
 {License}
 
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
 ## Questions
 
-{Username}
+https://github.com/{Username}
 {Email}
 
 ## How to Contribute

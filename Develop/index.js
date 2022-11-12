@@ -1,30 +1,12 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
 const fs = require('fs')
-//const markdown = require('generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 const { default: Choices } = require('inquirer/lib/objects/choices');
 const { type } = require('os');
-// TODO: Create an array of questions for user input
-
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-
-    fs.writeFileSync("new.README.md", contents)
-}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt([
-
-        {
-            type: 'confirm',
-            name: 'Begin',
-            message: 'Do you want to make a README.md?'
-        }
-    ]).then((start) =>{
-        console.log(start)
-        if(start === true){
 
             inquirer.prompt([
 
@@ -32,6 +14,12 @@ function init() {
                     type: 'input',
                     name: 'Title',
                     message: 'What is the title for your Project?'
+                },
+
+                {
+                    type: 'input',
+                    name: 'Repo',
+                    message: 'What is the name of your repo?'
                 },
             
                 {
@@ -91,22 +79,20 @@ function init() {
                 console.log(responses)
             
                 let contents = fs.readFileSync("template.README.md", "utf8")
-                console.log(contents)
+
             
                 console.log(Object.entries(responses))
                 for (const[key, value] of Object.entries(responses)){
                     contents = contents.replace(`{${key}}`, value)
                 }
-                writeToFile()
+                
+                fs.writeFileSync("new.README.md", contents)
             })
 
-        } else {
-            return
-        }
-    //    return 'Yes' ? writeToFile()
-    //    : console.log("not working")
-    })
+
 }
+
+
 
 // Function call to initialize app
 init();
