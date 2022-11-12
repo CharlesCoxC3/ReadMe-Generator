@@ -30,7 +30,8 @@
 ## Questions
 
 https://github.com/{Username}
-{Email}
+
+For additonal questions please email me at : {Email}
 
 ## How to Contribute
 

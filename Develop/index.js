@@ -83,7 +83,7 @@ function init() {
             
                 console.log(Object.entries(responses))
                 for (const[key, value] of Object.entries(responses)){
-                    contents = contents.replace(`{${key}}`, value)
+                    contents = contents.replaceAll(`{${key}}`, value)
                 }
                 
                 fs.writeFileSync("new.README.md", contents)

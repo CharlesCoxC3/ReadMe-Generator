@@ -1,6 +1,6 @@
-# na
+# ndnd
 
-![GitHub](https://img.shields.io/github/license/nana/ReadMe-Generator)
+![GitHub](https://img.shields.io/github/license/CharlesCoxC3/ReadMe-Generator)
 
 ## Description
 
@@ -11,17 +11,17 @@ nana
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Questions](#questions)
-- [How To Contribute](#contributions)
+- [Questions](#Questions)
+- [How To Contribute](#HowToContribute)
 - [Test](#tests)
 
 ## Installation
 
-ndnd
+nana
 
 ## Usage
 
-ndnd
+nana
 
 ## License
 
@@ -30,12 +30,12 @@ None
 ## Questions
 
 https://github.com/{Username}
-nna
+chchhaha
 
-## Contributions
+## How to Contribute
 
-dndn
+anan
 
 ## Tests
 
-dndn
+anna
