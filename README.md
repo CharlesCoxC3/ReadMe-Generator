@@ -40,3 +40,5 @@ To contribute to this application, just fork this REPO and make your own changes
 ## Tests
 
 To test this project we made a video showing how to run node index.js in the terminal and you are watching that video now :) so hopefully this works lol
+
+https://app.castify.com/view/ad0c0d9f-4383-466c-8e3d-06aa7afe6a6f
