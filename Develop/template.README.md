@@ -11,8 +11,8 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Questions](#Questions)
-- [How To Contribute](#HowToContribute)
+- [Questions](#questions)
+- [How To Contribute](#contributions)
 - [Test](#tests)
 
 ## Installation

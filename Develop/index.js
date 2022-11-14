@@ -76,17 +76,17 @@ function init() {
                 },
                 
             ]).then((responses)=>{
-                console.log(responses)
+                //console.log(responses)
             
                 let contents = fs.readFileSync("template.README.md", "utf8")
 
             
-                console.log(Object.entries(responses))
+                //console.log(Object.entries(responses))
                 for (const[key, value] of Object.entries(responses)){
                     contents = contents.replaceAll(`{${key}}`, value)
                 }
                 
-                fs.writeFileSync("new.README.md", contents)
+                fs.writeFileSync("README.md", contents)
             })
 
 
